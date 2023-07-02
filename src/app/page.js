@@ -1,9 +1,14 @@
-import Image from 'next/image'
+import Achievements from "@/components/Achivement/page";
+import DestinationList from "@/components/DestinationList/page";
+import RecentNews from "@/components/RecentNews/page";
+
 
 export default function Home() {
   return (
     <main>
-     <div>Projects</div>
+      <DestinationList></DestinationList>
+      <RecentNews></RecentNews>
+      <Achievements></Achievements>
     </main>
   )
 }
