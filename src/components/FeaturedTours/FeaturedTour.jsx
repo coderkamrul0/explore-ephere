@@ -4,7 +4,6 @@ import Image from 'next/image';
 import React from 'react';
 import { AiOutlineHeart, AiFillStar } from "react-icons/ai";
 import { BsCameraVideo, BsCamera } from "react-icons/bs";
-import { FaLocationDot } from "react-icons/fa";
 import { FaCircleDollarToSlot , FaLocationArrow } from "react-icons/fa6";
 const FeaturedTour = ({ tour = {} }) => {
     console.log(tour);

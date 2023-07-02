@@ -28,6 +28,7 @@ export default function Home() {
       {/* popular activities */}
       <PopularActivities></PopularActivities>
       <FeaturedTours></FeaturedTours>
+      
       <Ready></Ready>
 
 
