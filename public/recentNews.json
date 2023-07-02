@@ -1,0 +1,33 @@
+[
+    {
+      "id": 1,
+      "date": "19 DEC",
+      "type": "City Tour",
+      "role": "Admin",
+      "comments": 5,
+      "title": "A Place Where Start New Life With Adventure Travel ",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "image": "https://gaviaspreview.com/wp/gowilds/wp-content/uploads/2022/12/blog-02-500x360.jpg"
+    },
+    {
+      "id": 2,
+      "date": "21 DEC",
+      "type": "Life Style",
+      "role": "Admin",
+      "comments": 10,
+      "title": "Journeys Are Best Measured With Friends",
+      "description": "Vestibulum a enim et justo feugiat dignissim.",
+      "image": "https://gaviaspreview.com/wp/gowilds/wp-content/uploads/2022/12/blog-03-500x360.jpg"
+    },
+    {
+      "id": 3,
+      "date": "25 DEC",
+      "type": "Lifestyle",
+      "role": "Admin",
+      "comments": 3,
+      "title": "Travel The Most Beautiful Places In The World",
+      "description": "Fusce aliquet nunc sit amet tortor tincidunt.",
+      "image": "https://gaviaspreview.com/wp/gowilds/wp-content/uploads/2022/12/blog-04-500x360.jpg"
+    }
+  ]
+  
