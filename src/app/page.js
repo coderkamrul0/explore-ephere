@@ -19,8 +19,8 @@ export default function Home() {
      <Banner/>
      <About/>
       <DestinationList></DestinationList>
-      <RecentNews></RecentNews>
       <Achievements></Achievements>
+      <RecentNews></RecentNews>
 
       {/* popular activities */}
       <PopularActivities></PopularActivities>
