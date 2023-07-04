@@ -9,10 +9,10 @@ const NewsPage = () => {
 
   const fetchNewsData = async () => {
     try {
-      const res = await fetch(`./newsData/news.json`);
+      const res = await fetch(`./newsData/newsData.json`);
       const data = await res.json();
       setNewsData(data);
-      
+
     } catch (error) {
       console.log(error);
     }
