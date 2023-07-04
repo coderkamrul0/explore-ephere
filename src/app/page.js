@@ -28,6 +28,7 @@ export default function Home() {
       <PopularActivities></PopularActivities>
       <FeaturedTours></FeaturedTours>
       
+      
       <Ready></Ready>
 
 
