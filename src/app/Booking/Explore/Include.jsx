@@ -4,7 +4,7 @@ import { FiArrowRight } from 'react-icons/fi';
 
 const Include = () => {
     return (
-      <div>
+      <div className="border-b-2 pb-7">
         <h3 className="text-3xl font-bold mt-4">Included/Exclude</h3>
         <div className="grid grid-cols-2">
           <ul className="mt-5">

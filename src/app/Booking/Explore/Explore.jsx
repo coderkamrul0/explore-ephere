@@ -4,12 +4,14 @@ import image from "../../../../public/Booking/6.jpg";
 import Image from 'next/image';
 import Include from './Include';
 import TourInfo from '../TourInfo/TourInfo';
+import Deals from './Deals';
+import Amenities from './Amenities';
 
 const Explore = () => {
     return (
       <div className="container mx-auto py-10 flex gap-6">
         <div className="w-[60%]">
-          <div className="border-b-2">
+          <div className="">
             <h1 className="font-bold text-3xl text-black">Explore Tours</h1>
             <p className="text-[#5e5a5a] mt-3">
               Sed ut perspiciatis unde omniste natus error sit voluptatem
@@ -43,10 +45,12 @@ const Explore = () => {
             </div>
           </div>
           <Include></Include>
+          <Amenities></Amenities>
         </div>
         <div className="w-[40%] ">
           <BookForm></BookForm>
           <TourInfo></TourInfo>
+          <Deals></Deals>
         </div>
       </div>
     );
