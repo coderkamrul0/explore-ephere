@@ -2,12 +2,14 @@ import React from 'react';
 import BookForm from './BookForm';
 import image from "../../../../public/Booking/6.jpg";
 import Image from 'next/image';
+import Include from './Include';
+import TourInfo from '../TourInfo/TourInfo';
 
 const Explore = () => {
     return (
       <div className="container mx-auto py-10 flex gap-6">
         <div className="w-[60%]">
-          <div>
+          <div className="border-b-2">
             <h1 className="font-bold text-3xl text-black">Explore Tours</h1>
             <p className="text-[#5e5a5a] mt-3">
               Sed ut perspiciatis unde omniste natus error sit voluptatem
@@ -17,7 +19,7 @@ const Explore = () => {
               aspernatur aut odit.
             </p>
             <div className="my-7 grid grid-cols-2 gap-3">
-              <div>
+              <div className="">
                 <div className="mb-4">
                   <h1 className="font-bold text-3xl text-black">
                     Advance Facilities
@@ -37,12 +39,14 @@ const Explore = () => {
                   </p>
                 </div>
               </div>
-              <Image src={image} alt='image'></Image>
+              <Image src={image} alt="image"></Image>
             </div>
           </div>
+          <Include></Include>
         </div>
-        <div className="w-[40%]">
+        <div className="w-[40%] ">
           <BookForm></BookForm>
+          <TourInfo></TourInfo>
         </div>
       </div>
     );
