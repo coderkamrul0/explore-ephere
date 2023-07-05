@@ -9,7 +9,7 @@ import Image from "next/image";
 const Discover = () => {
   return (
     <div className=" py-14 bg-[#F3F8F6]">
-      <div className="container mx-auto flex items-center justify-between">
+      <div className="container mx-auto p-4 md:p-0 md:flex items-center justify-between">
         <div>
           <h1 className="text-black font-bold text-4xl">
             Discovery Island Kayak Tour

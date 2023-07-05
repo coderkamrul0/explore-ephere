@@ -9,8 +9,8 @@ import Amenities from './Amenities';
 
 const Explore = () => {
     return (
-      <div className="container mx-auto py-10 flex gap-6">
-        <div className="w-[60%]">
+      <div className="container p-4 md:p-0 mx-auto py-10 md:flex gap-6">
+        <div className=" w-full md:w-[60%]">
           <div className="">
             <h1 className="font-bold text-3xl text-black">Explore Tours</h1>
             <p className="text-[#5e5a5a] mt-3">
@@ -47,7 +47,7 @@ const Explore = () => {
           <Include></Include>
           <Amenities></Amenities>
         </div>
-        <div className="w-[40%] ">
+        <div className="w-full md:w-[40%] ">
           <BookForm></BookForm>
           <TourInfo></TourInfo>
           <Deals></Deals>

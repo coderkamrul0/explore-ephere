@@ -5,7 +5,7 @@ import { Popover } from "react-tiny-popover";
 
 const Rating = () => {
     return (
-      <div className="container mx-auto py-10 flex justify-between items-center">
+      <div className="container p-4 mx-auto py-10 md:flex  justify-between items-center">
         <div className="flex items-center gap-5">
           <div className="flex">
             <AiFillStar className="h-5 w-5 text-yellow-500 "></AiFillStar>
