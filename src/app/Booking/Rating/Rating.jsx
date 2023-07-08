@@ -1,7 +1,7 @@
 import React from 'react';
 import { AiFillStar, AiOutlineHeart } from 'react-icons/ai';
 import { FaShare } from 'react-icons/fa6';
-import { Popover } from "react-tiny-popover";
+
 
 const Rating = () => {
     return (
@@ -11,7 +11,7 @@ const Rating = () => {
             <AiFillStar className="h-5 w-5 text-yellow-500 "></AiFillStar>
             <AiFillStar className="h-5 w-5 text-yellow-500 "></AiFillStar>
             <AiFillStar className="h-5 w-5 text-yellow-500 "></AiFillStar>
-            <AiFillStar className="h-5 w-5 text-yellow-500 "></AiFillStar>
+            <AiFillStar className="h-5 w-5 text-yellow-500 "></AiFillStar> 
             <AiFillStar className="h-5 w-5 text-yellow-500 "></AiFillStar>
           </div>
           <p className="font-medium text-[#585555]">4.67 by 3 reviews</p>
