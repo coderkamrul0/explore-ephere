@@ -6,10 +6,11 @@ import Include from './Include';
 import TourInfo from '../TourInfo/TourInfo';
 import Deals from './Deals';
 import Amenities from './Amenities';
+import TourPlan from './TourPlan';
 
 const Explore = () => {
     return (
-      <div className="container p-4 md:p-0 mx-auto py-10 md:flex gap-6">
+      <div className="container p-4 md:p-0 mx-auto py-10 md:flex gap-6 mb-7">
         <div className=" w-full md:w-[60%]">
           <div className="">
             <h1 className="font-bold text-3xl text-black">Explore Tours</h1>
@@ -46,6 +47,7 @@ const Explore = () => {
           </div>
           <Include></Include>
           <Amenities></Amenities>
+          <TourPlan></TourPlan>
         </div>
         <div className="w-full md:w-[40%] ">
           <BookForm></BookForm>
