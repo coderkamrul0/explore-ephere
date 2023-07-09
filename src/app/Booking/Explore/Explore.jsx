@@ -7,6 +7,12 @@ import TourInfo from '../TourInfo/TourInfo';
 import Deals from './Deals';
 import Amenities from './Amenities';
 import TourPlan from './TourPlan';
+import MapLocation from './MapLocation';
+import Calender from './Calender';
+import RelatedTour from './RelatedTour';
+import Review from './Review';
+import Comments from './Comments';
+import AddComment from './AddComment';
 
 const Explore = () => {
     return (
@@ -48,6 +54,12 @@ const Explore = () => {
           <Include></Include>
           <Amenities></Amenities>
           <TourPlan></TourPlan>
+          <MapLocation></MapLocation>
+          <Calender></Calender>
+          <RelatedTour></RelatedTour>
+          <Review></Review>
+          <Comments></Comments>
+          <AddComment></AddComment>
         </div>
         <div className="w-full md:w-[40%] ">
           <BookForm></BookForm>
