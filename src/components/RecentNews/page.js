@@ -17,17 +17,27 @@ const RecentNews = () => {
             <div className='flex justify-between items-center'>
                 <div className='my-10 space-y-6'>
                     <span className='text-green-500 bg-green-50 border px-4 py-2 rounded'>Recent News Feed</span>
-                    <h1 className='text-5xl font-bold my-4'>Amazing News & Blog For <br /> Every Single Update</h1>
+                    <h1 className='lg:text-5xl text-2xl font-bold my-4'>Amazing News & Blog For <br /> Every Single Update</h1>
                 </div>
-                <button className='border px-5 py-4 bg-green-500 text-white font-bold rounded'>View More</button>
+                <button className='border lg:px-5 px-2 lg:py-4 py-1 bg-green-500 text-white font-bold rounded'>View More</button>
             </div>
             <div>
                 <Swiper
-                    slidesPerView={3}
-                    spaceBetween={30}
+                    // slidesPerView={3}
+                    // spaceBetween={30}
                     freeMode={true}
                     pagination={{
                         clickable: true,
+                    }}
+                    breakpoints={{
+                        640: {
+                            slidesPerView: 1,
+                            spaceBetween: 20,
+                        },
+                        768: {
+                            slidesPerView: 3,
+                            spaceBetween: 30,
+                        },
                     }}
                     modules={[FreeMode, Pagination]}
                     className="mySwiper"
@@ -42,10 +52,10 @@ const RecentNews = () => {
 
                         )
                     }
-                    
+
                 </Swiper>
             </div>
-        </div>
+        </div >
     );
 };
 
