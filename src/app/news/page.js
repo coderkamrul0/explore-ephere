@@ -1,7 +1,7 @@
 "use client";
 import Image from "next/image";
 import React, { useEffect, useState } from "react";
-import { FaUserCircle,FaRegComments,FaLongArrowAltRight } from "react-icons/fa";
+import { FaUserCircle, FaRegComments, FaLongArrowAltRight } from "react-icons/fa";
 
 
 const NewsPage = () => {
@@ -48,26 +48,26 @@ const NewsPage = () => {
             {newsData.map((news) => (
               <div key={news.id}>
                 <div className="p-2 shadow-md rounded-md mb-5 md:mb-0">
-                  <img src={news.image} alt=""  className="rounded-lg relative"/>
+                  <img src={news.image} alt="" className="rounded-lg relative" />
                   <p className="bg-[#F7921E] inline-block px-3 text-white font-semibold py-1 ">{news.category}</p>
 
-                  <div  className="flex items-center gap-5 pt-10">
+                  <div className="flex items-center gap-5 pt-10">
                     <div className="flex items-center gap-2">
-                        <FaUserCircle className="text-[#63AB45]"/>
-                        <p>Admin</p>
+                      <FaUserCircle className="text-[#63AB45]" />
+                      <p>Admin</p>
                     </div>
                     <div className="flex items-center gap-2">
-                        <FaRegComments className="text-[#63AB45]"/>
-                        <p>Comments</p>
+                      <FaRegComments className="text-[#63AB45]" />
+                      <p>Comments</p>
                     </div>
                   </div>
 
                   <div className="pb-3">
-                  <h5 className="text-2xl font-bold py-2">{news.name}</h5>
-                  <p className="text-[#82828A]">{news.details}</p>
+                    <h5 className="text-2xl font-bold py-2">{news.name}</h5>
+                    <p className="text-[#82828A]">{news.details}</p>
                   </div>
 
-                  <button className="flex items-center gap-2"><p>Read More</p> <FaLongArrowAltRight className="text-[#63AB45]"/> </button>
+                  <button className="flex items-center gap-2"><p>Read More</p> <FaLongArrowAltRight className="text-[#63AB45]" /> </button>
                 </div>
               </div>
             ))}
