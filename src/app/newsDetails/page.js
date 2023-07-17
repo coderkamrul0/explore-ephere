@@ -2,13 +2,13 @@ import React from 'react';
 
 const page = () => {
     return (
-        <div>
+        <div className='pt-20'>
             <div>
-                <p>Banner</p>
+                <p className=''>Banner</p>
             </div>
             <div className='flex'>
                 <div className='w-2/3'>
-                    
+
                 </div>
                 <div className='w-1/3'>
 
