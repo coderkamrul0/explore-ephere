@@ -1,3 +1,16 @@
+import Link from "next/link";
+import {
+  FaFacebook,
+  FaInstagram,
+  FaLinkedin,
+  FaTwitter,
+} from "react-icons/fa6";
+
+export const metadata = {
+  title: "Contact",
+  description: "Login page of sphere",
+};
+
 const page = () => {
   return (
     <div>
@@ -62,6 +75,77 @@ const page = () => {
               <p>+8801xxxxxx</p>
             </div>
           </div>
+        </div>
+      </div>
+      <div className="md:flex md:max-w-6xl  mb-12 md:mx-auto mx-8 items-center">
+        <div className="md:w-1/2 space-y-8 ">
+          <button className="btn btn-success">Contact Us</button>
+          <h2 className="text-5xl font-bold">
+            Have questions? Feel free to write us
+          </h2>
+          <p className="">
+            Man braid hell of edison bulb four brunch subway tile authentic,
+            chillwave put a bird on church-key ramps heirloom. Set perspiciatis
+            unde omnis estenatus voluptatem aperiae.
+          </p>
+          <div className="flex gap-4 pb-12">
+            <div className="">
+              <FaFacebook className="h-10 w-10" />
+            </div>
+            <div>
+              <FaLinkedin className="h-10 w-10" />
+            </div>
+            <div>
+              <FaInstagram className="h-10 w-10" />
+            </div>
+            <div>
+              <FaTwitter className="h-10 w-10" />
+            </div>
+          </div>
+        </div>
+        <div className="md:w-1/2">
+          <form>
+            <div className="grid md:grid-cols-2 gap-4">
+              <div className="relative mb-6" data-te-input-wrapper-init="">
+                <label className="">Your Name</label>
+                <input
+                  type="text"
+                  className="bg-gray-100 block border-2   min-h-[auto] w-full rounded-md  px-3 py-[0.8rem] "
+                  id="yourName"
+                />
+              </div>
+
+              <div className="relative mb-6" data-te-input-wrapper-init="">
+                <label className="">Email</label>
+                <input
+                  type="email"
+                  className=" bg-gray-100 block border-2   min-h-[auto] w-full rounded-md  px-3 py-[0.8rem] "
+                  id="lastName"
+                />
+              </div>
+            </div>
+
+            <div className="relative mb-6" data-te-input-wrapper-init="">
+              <label className="">Subject</label>
+              <input
+                type="text"
+                className="bg-gray-100 block border-2   min-h-[auto] w-full rounded-md  px-3 py-[0.8rem] "
+                id="subject"
+              />
+            </div>
+            <div className="relative mb-6" data-te-input-wrapper-init="">
+              <label className="">Message</label>
+
+              <textarea className="resize-none bg-gray-100 block border-2    w-full rounded-md  px-3 py-[3rem] " />
+            </div>
+
+            <button
+              className="bg-green-500  hover:bg-green-700 text-white font-bold py-2 px-4 rounded"
+              type="submit"
+            >
+              Submit
+            </button>
+          </form>
         </div>
       </div>
     </div>
