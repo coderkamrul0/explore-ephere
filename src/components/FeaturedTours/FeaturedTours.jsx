@@ -47,7 +47,7 @@ const FeaturedTours = () => {
               breakpoints={{
                 640: {
                   slidesPerView: 2,
-                  spaceBetween: 20,
+                  spaceBetween: 30,
                 },
                 768: {
                   slidesPerView: 4,
