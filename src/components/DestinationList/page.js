@@ -13,7 +13,7 @@ const DestinationList = async () => {
                 <span className='text-green-500 bg-green-50 border px-4 py-2 rounded'>Destination List</span>
                 <h1 className='text-4xl font-bold my-4'>Go Exotic Places</h1>
             </div>
-            <div className='grid grid-cols-4 gap-4'>
+            <div className='grid grid-cols-2 lg:grid-cols-4 gap-4'>
                 <div className='h-72 rounded-xl bg-center bg-no-repeat bg-slate-400 bg-blend-multiply bg-cover' style={{ backgroundImage: 'url("https://gaviaspreview.com/wp/gowilds/wp-content/uploads/2023/02/image-08.jpg")' }}>
                     <DisplayWord time='2' country='Switzerland'></DisplayWord>
                 </div>
