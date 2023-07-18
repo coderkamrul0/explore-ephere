@@ -18,8 +18,10 @@ export default function RootLayout({ children }) {
       <body className={inter.className}>
         <ScrollToTop color="white" smooth />
         <Navbar />
-
+        <div className="pt-20">
         {children}
+
+        </div>
 
         <Footer />
       </body>
