@@ -104,7 +104,7 @@ const BookingSlider = () => {
           {imageData.map((i) => (
             <SwiperSlide className="overflow-hidden" key={i.id}>
               <Image
-                className="h-[350px] md:h-[300px] rounded-lg  ease-in duration-300  hover:scale-110 md:w-[330px]"
+                className="h-[350px] md:h-[300px] rounded-lg  ease-in duration-300  hover:scale-110 w-full"
                 src={i.image}
                 alt="img"
               ></Image>
