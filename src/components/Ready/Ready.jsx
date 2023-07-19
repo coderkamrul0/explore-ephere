@@ -9,6 +9,7 @@ import hiking from '../../../public/ni7_images/home/Ready/hiking.png'
 import hang_gliding from '../../../public/ni7_images/home/Ready/hang-gliding.png'
 import Lottie from "lottie-react";
 import Image from 'next/image';
+import Link from 'next/link';
 const Ready = () => {
     return (
         <div className='py-10'>
@@ -26,7 +27,7 @@ const Ready = () => {
                             text='text-left'
                             title_width=''
                         ></SectionTitle>
-                        <button className='w-[204px] h-[59px] bg-[#5a9b3e] text-white text-center rounded-lg'>Check Availability</button>
+                        <Link href={'/searchPage'}><button className='w-[204px] h-[59px] bg-[#5a9b3e] text-white text-center rounded-lg'>Check Availability</button></Link>
                     </div>
 
                     {/* 2nd */}

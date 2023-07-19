@@ -13,6 +13,7 @@ import camp from '../../../public/ni7_images/home/popular_activity/camp.jpg'
 import worldMap from '../../../public/ni7_images/home/popular_activity/world_map.jpg'
 import Image from 'next/image';
 import SectionTitle from '../SectionTitle/SectionTitle';
+import Link from 'next/link';
 
 const PopularActivities = () => {
     return (
@@ -45,32 +46,32 @@ const PopularActivities = () => {
 
                                 <div className='bg-[#f7921e] text-white rounded-lg flex  items-center gap-3 px-3 py-2'>
                                     <Image className='h-[50px] w-[50px] ' src={tent} alt='tent image'></Image>
-                                    <p className='font-bold'>Tent Camping</p>
+                                   <Link href={'/searchPage'}> <p className='font-bold'>Tent Camping</p></Link>
                                 </div>
 
                                 <div className='bg-slate-100 hover:bg-[#f7921e] hover:text-white text-black rounded-lg flex  items-center gap-3 px-3 mt-5 py-2'>
                                     <Image className='h-[45px] w-[45px]  py-1 px-1' src={travel} alt='tent image'></Image>
-                                    <p className='font-bold'>Adventure travel</p>
+                                    <Link href={'/searchPage'}><p className='font-bold'>Adventure travel</p></Link>
                                 </div>
 
                                 <div className='bg-slate-100 hover:bg-[#f7921e] hover:text-white text-black rounded-lg flex  items-center gap-3 px-3 mt-5 py-2'>
                                     <Image className='h-[45px] w-[45px]  py-1 px-1' src={biking} alt='tent image'></Image>
-                                    <p className='font-bold'>Mountain biking</p>
+                                    <Link href={'/searchPage'}><p className='font-bold'>Mountain biking</p></Link>
                                 </div>
 
                                 <div className='bg-slate-100 hover:bg-[#f7921e] hover:text-white text-black rounded-lg flex  items-center gap-3 px-3 mt-5 py-2'>
                                     <Image className='h-[45px] w-[45px]  py-1 px-1' src={discovery_word} alt='tent image'></Image>
-                                    <p className='font-bold'>Discovery world</p>
+                                    <Link href={'/searchPage'}><p className='font-bold'>Discovery world</p></Link>
                                 </div>
 
                                 <div className='bg-slate-100 hover:bg-[#f7921e] hover:text-white text-black rounded-lg flex  items-center gap-3 px-3 mt-5 py-2'>
                                     <Image className='h-[45px] w-[45px]  py-1 px-1' src={fishing} alt='tent image'></Image>
-                                    <p className='font-bold'>Fishing & swimming</p>
+                                    <Link href={'/searchPage'}><p className='font-bold'>Fishing & swimming</p></Link>
                                 </div>
 
                                 <div className='bg-slate-100 hover:bg-[#f7921e] hover:text-white text-black rounded-lg flex  items-center gap-3 px-3 mt-5 py-2'>
                                     <Image className='h-[45px] w-[45px]  py-1 px-1' src={hiking} alt='tent image'></Image>
-                                    <p className='font-bold'>Mountain hiking</p>
+                                    <Link href={'/searchPage'}><p className='font-bold'>Mountain hiking</p></Link>
                                 </div>
 
                             </div>
@@ -126,7 +127,7 @@ const PopularActivities = () => {
                                 <h3 className='text-3xl font-bold'>Ready to adventure and enjoy natural</h3>
                             </div>
                         </div>
-                        <button className='px-8 py-5 rounded-xl font-bold bg-white text-black hover:bg-[#e5f1e5]'>Explore More</button>
+                        <Link href={'/searchPage'}><button className='px-8 py-5 rounded-xl font-bold bg-white text-black hover:bg-[#e5f1e5]'>Explore More</button></Link>
                     </div>
                 </div>
             </section>
