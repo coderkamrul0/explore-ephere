@@ -19,4 +19,5 @@ button.scroll-to-top {
     height: 50px;
     width: 50px;
     border-radius: 100%;
+    z-index: 999;
 }
