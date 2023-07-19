@@ -51,7 +51,7 @@ const Navbar = () => {
             <HiOutlineMagnifyingGlass className="h-[30px] w-[30px]" />
           </a>
           <a className="h-[40px] w-[40px] flex items-center justify-center bg-slate-100 rounded-full">
-            <BiUserCircle className="h-[25px] w-[25px]" />
+            <Link href={'/login'}><BiUserCircle className="h-[25px] w-[25px]" /></Link>
           </a>
         </div>
       </div>
