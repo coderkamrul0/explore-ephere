@@ -1,6 +1,7 @@
 "use client"
 
 import Image from 'next/image';
+import Link from 'next/link';
 import React from 'react';
 import { AiOutlineHeart, AiFillStar } from "react-icons/ai";
 import { BsCameraVideo, BsCamera } from "react-icons/bs";
@@ -10,7 +11,7 @@ const FeaturedTour = ({ tour = {} }) => {
     const { id, place_name, destination_img, price, location } = tour
 
     return (
-        <>
+        <Link href={'/Booking'}>
             <div className=' bg-cover bg-center h-[350px] w-[400px] rounded-lg' style={{ backgroundImage: `url('${destination_img}')` }}>
 
                 <div className='backdrop-brightness-50 px-5 py-5 rounded-lg h-[350px] w-[400px]'>
@@ -43,7 +44,7 @@ const FeaturedTour = ({ tour = {} }) => {
                 </div>
             </div>
           
-        </>
+        </Link>
     );
 };
 
