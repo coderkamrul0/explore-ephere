@@ -29,7 +29,7 @@ const PopularTour = () => {
                 alt=""
               />
             </figure>
-            <div className="card-body  z-10 bg-white rounded-[42px_43px_0px_0px]">
+            <div className="card-body   bg-white rounded-[42px_43px_0px_0px]">
               <div className="flex">
                 <AiFillStar className="h-5 w-5 text-yellow-500 "></AiFillStar>
                 <AiFillStar className="h-5 w-5 text-yellow-500 "></AiFillStar>
