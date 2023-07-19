@@ -13,9 +13,9 @@ const Ready = () => {
     return (
         <div className='py-10'>
             <div className=' bg-cover bg-center    rounded-lg bg-fixed' style={{ backgroundImage: `url('${camp.src}')` }}>
-                <div className="backdrop-brightness-50 h-full   flex justify-between px-10">
+                <div className="backdrop-brightness-50 h-full   lg:flex justify-between px-10">
                     {/* 1st */}
-                    <div className='text-left flex flex-col justify-center gap-8'>
+                    <div className='text-left lg:flex flex-col justify-center gap-8'>
                         <Lottie className='h-[100px] w-[100px]' animationData={play_btn} loop={true} />
                         <SectionTitle
                             title="Are you ready to travel"
