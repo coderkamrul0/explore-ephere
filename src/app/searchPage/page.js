@@ -5,7 +5,7 @@ import React from 'react';
 
 const page = () => {
     return (
-        <div className='pt-20'>
+        <div className=''>
             <ExploreWorld></ExploreWorld>
             <FeaturedTourSearch></FeaturedTourSearch>
             <CompanyIntro></CompanyIntro>
