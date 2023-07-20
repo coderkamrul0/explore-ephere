@@ -23,11 +23,13 @@ const PopularTour = () => {
             className="card  border rounded-lg bg-base-100 shadow-2xl relative"
           >
             <figure>
-              <img
-                className="h-[300px]  w-full"
+              <Image
+                width={300}
+                height={300}
+                className="h-[300px]  w-full "
                 src={t.destination_img}
-                alt=""
-              />
+                alt="image"
+              ></Image>
             </figure>
             <div className="card-body   bg-white rounded-[42px_43px_0px_0px]">
               <div className="flex">
