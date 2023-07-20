@@ -16,7 +16,7 @@ const RecentNews = () => {
         <div className='my-20 max-w-7xl mx-auto'>
             <div className='flex justify-between items-center'>
                 <div className='my-10 space-y-6'>
-                    <span className='text-green-500 bg-green-50 border px-4 py-2 rounded'>Recent News Feed</span>
+                    <span className='text-green-600 bg-green-200 border px-4 py-2 rounded font-bold'>Recent News Feed</span>
                     <h1 className='lg:text-5xl text-2xl font-bold my-4'>Amazing News & Blog For <br /> Every Single Update</h1>
                 </div>
                 <button className='border lg:px-5 px-2 lg:py-4 py-1 bg-green-500 text-white font-bold rounded'>View More</button>

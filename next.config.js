@@ -8,6 +8,6 @@ const nextConfig = {
 module.exports = {
   nextConfig,
   images: {
-    domains: ["gaviaspreview.com", "i.ibb.co"],
+    domains: ["gaviaspreview.com", "i.ibb.co", "cdn-icons-png.flaticon.com", "images.unsplash.com"],
   },
 };

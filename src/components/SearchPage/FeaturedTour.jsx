@@ -9,7 +9,7 @@ const FeaturedTourSearch = () => {
                 <p className='text-2xl text-gray-500'>12 Tours</p>
                 <div className='flex justify-center items-center gap-2'>
                     <p className='text-2xl text-gray-700'>Sort</p>
-                    <select className="select select-bordered border-black w-full max-w-xs">
+                    <select className="select select-bordered w-full max-w-xs">
                         <option selected>Price</option>
                         <option>Title</option>
                         <option>Ratting</option>
