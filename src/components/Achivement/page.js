@@ -40,7 +40,7 @@ const Achievements = () => {
             <div className='bg-green-50 lg:flex'>
                 <div className='lg:w-1/2 p-2'>
                     <div className='my-10 space-y-6'>
-                        <span className='text-green-500 bg-green-50 border px-4 py-2 rounded'>Our Testimonials</span>
+                        <span className='text-green-600 bg-green-200 border px-4 py-2 rounded font-bold'>Our Testimonials</span>
                         <h1 className='text-5xl font-bold my-4'>What they’re talking <br /> about our policy</h1>
                         <p>Lorem Ipsum is simply dummy text of free available in market the printing and typesetting industry has been.</p>
                         <button className='border px-5 py-4 bg-green-500 text-white font-bold rounded'>All Testimonials</button>

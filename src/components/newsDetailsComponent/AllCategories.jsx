@@ -4,7 +4,7 @@ import { FaArrowRightLong } from 'react-icons/fa6';
 const AllCategories = () => {
     const array = ['Adventure', 'City Tours', 'Life Styles', 'Wild Camping']
     return (
-        <div className='bg-gray-100 p-8'>
+        <div className='bg-gray-100 p-8 shadow-lg'>
             <p className='text-xl font-bold mb-7'><span className='border-b-4 border-green-600 pb-3'>All</span> Categories</p>
             <div className='space-y-8'>
                 {
