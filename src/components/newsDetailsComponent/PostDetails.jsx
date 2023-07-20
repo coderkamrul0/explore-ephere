@@ -11,7 +11,7 @@ const PostDetails = () => {
   return (
     <div>
       <Image
-        className="mb-4 h-full w-full"
+        className="mb-4 h-full w-full rounded-lg"
         src="https://gaviaspreview.com/wp/gowilds/wp-content/uploads/2022/12/blog-01.jpg"
         alt="img"
         width="5000"
