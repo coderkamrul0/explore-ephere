@@ -1,6 +1,7 @@
 import React from 'react';
 import datas from '../../../public/newsDetailsData/recentPost.json'
 import { FaComments } from 'react-icons/fa6';
+import Image from 'next/image';
 
 const RecentPost = () => {
     return (
@@ -11,7 +12,7 @@ const RecentPost = () => {
                     datas.map(data => 
 
                         <div className='flex justify-center items-center gap-4 mb-8' key={data.id}>
-                            <img className='w-24 rounded-lg' src={data.image} alt="" />
+                            <Image width={24} height={24} className='w-24 rounded-lg' src={data.image} alt="" />
                             <div>
                                 <div className='flex gap-2 items-center'>
                                     <p className='text-green-500'><FaComments /> </p>

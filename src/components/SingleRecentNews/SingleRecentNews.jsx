@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
 import { BiSolidUserCircle } from 'react-icons/bi';
@@ -13,7 +14,7 @@ const SingleRecentNews = ({ news }) => {
             </div>
             <div className='p-3'>
                 <Link href={'/newsDetails'}>
-                    <img className='rounded' src={image} alt="" />
+                    <Image width={300} height={300} className='rounded' src={image} alt="" />
                     <span className='bg-orange-400 text-white font-semibold px-4 py-2 -mt-10 ms-5'>{type}</span>
                 </Link>
             </div>
