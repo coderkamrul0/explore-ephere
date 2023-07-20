@@ -3,11 +3,18 @@ const nextConfig = {
   experimental: {
     appDir: true,
   },
-}
+};
+
+// module.exports = nextConfig
 
 module.exports = {
   nextConfig,
   images: {
-    domains: ["gaviaspreview.com", "i.ibb.co", "cdn-icons-png.flaticon.com", "images.unsplash.com"],
+    domains: [
+      "gaviaspreview.com",
+      "i.ibb.co",
+      "cdn-icons-png.flaticon.com",
+      "images.unsplash.com",
+    ],
   },
 };
