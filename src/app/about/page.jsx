@@ -91,7 +91,7 @@ const aboutPage = () => {
                             <Image className='w-[50px] h-[50px]' src={travel} alt="travel" />
                             <div>
                                 <p className='font-bold'>Protect your life</p>
-                                <p>We're here for look even you from start to finish.</p>
+                                <p>We are here for look even you from start to finish.</p>
                             </div>
                         </div>
 
@@ -185,7 +185,7 @@ const aboutPage = () => {
                         <Image className='w-[50px] h-[50px]' src={travel} alt="travel" />
                         <div>
                             <p className='font-bold'>Protect your life</p>
-                            <p>We're here for look even you from start to finish.</p>
+                            <p>We are here for look even you from start to finish.</p>
                         </div>
                     </div>
 
