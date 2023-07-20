@@ -3,7 +3,7 @@ import React from "react";
 
 const page = () => {
   return (
-    <div className="pt-20">
+    <div className="">
       <div
         className="text-white bg-center bg-no-repeat bg-stone-500 bg-blend-multiply bg-cover h-[450px]"
         style={{

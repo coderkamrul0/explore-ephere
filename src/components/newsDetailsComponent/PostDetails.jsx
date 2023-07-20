@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 import { AiOutlineInstagram } from "react-icons/ai";
 import { CiFacebook, CiLinkedin } from "react-icons/ci";
@@ -9,10 +10,12 @@ import PostQuote from "./PostQuote";
 const PostDetails = () => {
   return (
     <div>
-      <img
-        className="mb-4"
+      <Image
+        className="mb-4 h-full w-full"
         src="https://gaviaspreview.com/wp/gowilds/wp-content/uploads/2022/12/blog-01.jpg"
-        alt=""
+        alt="img"
+        width="5000"
+        height="5000"
       />
       <div>
         <div className="flex gap-4">

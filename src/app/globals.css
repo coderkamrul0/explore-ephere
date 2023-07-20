@@ -11,7 +11,7 @@
     height: 500px;
 }
 button.scroll-to-top {
-    background: indigo;
+    background: rgb(58, 144, 58);
     color: white;
     font-weight: bold;
     display: grid;
