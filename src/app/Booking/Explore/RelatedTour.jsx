@@ -9,8 +9,8 @@ import "swiper/css/navigation";
 import { Navigation, Pagination } from "swiper";
 import Image from "next/image";
 import { AiFillStar } from "react-icons/ai";
-import clock from '../../../../public/Booking/Icons/clock.png'
-import users from '../../../../public/Booking/Icons/users.png'
+import clock from "../../../../public/Booking/Icons/clock.png";
+import users from "../../../../public/Booking/Icons/users.png";
 import { FaArrowRight } from "react-icons/fa";
 
 const RelatedTour = () => {
@@ -42,10 +42,12 @@ const RelatedTour = () => {
             <SwiperSlide className="overflow-hidden" key={t.id}>
               <div className="card  border rounded-lg bg-base-100 shadow-2xl relative">
                 <figure>
-                  <img
-                    className="h-[300px]  w-full"
-                    src={t.destination_img}
-                    alt=""
+                  <Image
+                    height={300}
+                    width={300}
+                    className="h-[300px]  w-full object-cover"
+                    src={t?.destination_img}
+                    alt="tour image"
                   />
                 </figure>
                 <div className="card-body  z-10 bg-white rounded-[42px_43px_0px_0px]">

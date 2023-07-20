@@ -5,4 +5,9 @@ const nextConfig = {
   },
 }
 
-module.exports = nextConfig
+module.exports = {
+  nextConfig,
+  images: {
+    domains: ["gaviaspreview.com", "i.ibb.co"],
+  },
+};
