@@ -81,11 +81,11 @@ const Adventure = () => {
   var settings = {
     dots: true,
     infinite: false,
-    speed: 500,
+    speed: 2000,
     slidesToShow: 4,
     slidesToScroll: 4,
     initialSlide: 0,
-    nextArrow: <SampleNextArrow />,
+    nextArrow: <SamplePrevArrow />,
     prevArrow: <SamplePrevArrow />,
     responsive: [
       {
