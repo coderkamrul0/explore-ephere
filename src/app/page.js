@@ -9,6 +9,7 @@ import RecentNews from "@/components/RecentNews/page";
 import PopularActivities from '@/components/PopularActivities/PopularActivities'
 import FeaturedTours from '@/components/FeaturedTours/FeaturedTours'
 import Ready from '@/components/Ready/Ready'
+import Adventure from '@/components/Adventure/Adventure';
 
 export default function Home() {
 
@@ -16,6 +17,7 @@ export default function Home() {
     <main>
      
      <Banner/>
+     <Adventure></Adventure>
      <About/>
       <DestinationList></DestinationList>
       <Achievements></Achievements>

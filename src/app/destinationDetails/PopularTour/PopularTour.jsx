@@ -24,8 +24,8 @@ const PopularTour = () => {
           >
             <figure>
               <Image
-                width={300}
-                height={300}
+                width="5000"
+                height="5000"
                 className="h-[300px]  w-full "
                 src={t.destination_img}
                 alt="image"

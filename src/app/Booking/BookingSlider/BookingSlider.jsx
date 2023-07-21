@@ -79,7 +79,7 @@ const BookingSlider = () => {
     },
   ];
   return (
-    <div className="pt-[100px]">
+    <div className="">
       <>
         <Swiper
           slidesPerView={1}
