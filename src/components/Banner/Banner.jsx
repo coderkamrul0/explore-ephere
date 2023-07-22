@@ -28,7 +28,7 @@ const Banner = () => {
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. <br /> Nulla
                   quae minima tenetur quia eveniet eos!
                 </p>
-                <button className="bg-[#63AB45] text-white py-4 px-6 font-bold rounded-md hover:bg-white hover:text-[#63AB45]">Let's Get Started</button>
+                <button className="bg-[#63AB45] text-white py-4 px-6 font-bold rounded-md hover:bg-white hover:text-[#63AB45]">Lets Get Started</button>
               </div>
             </div>
           </div>
@@ -50,7 +50,7 @@ const Banner = () => {
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. <br /> Nulla
                   quae minima tenetur quia eveniet eos!
                 </p>
-                <button className="bg-[#63AB45] text-white py-4 px-6 font-bold rounded-md hover:bg-white hover:text-[#63AB45]">Let's Get Started</button>
+                <button className="bg-[#63AB45] text-white py-4 px-6 font-bold rounded-md hover:bg-white hover:text-[#63AB45]">Lets Get Started</button>
               </div>
             </div>
           </div>
@@ -72,7 +72,7 @@ const Banner = () => {
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. <br /> Nulla
                   quae minima tenetur quia eveniet eos!
                 </p>
-                <button className="bg-[#63AB45] text-white py-4 px-6 font-bold rounded-md hover:bg-white hover:text-[#63AB45]">Let's Get Started</button>
+                <button className="bg-[#63AB45] text-white py-4 px-6 font-bold rounded-md hover:bg-white hover:text-[#63AB45]">Lets Get Started</button>
               </div>
             </div>
           </div>

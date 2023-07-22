@@ -17,22 +17,22 @@ const Achievements = () => {
                 </div>
                 <div className='lg:flex justify-between'>
                     <div className='text-center border py-10 px-16 space-y-5 rounded-md shadow-xl'>
-                        <Image width={100}   height={100} className='border rounded-full p-4 bg-green-100 text-green-300 transition ease-in-out delay-150 hover:bg-green-500 hover:scale-110 mb-5' src="https://cdn-icons-png.flaticon.com/128/5730/5730094.png" alt="" />
+                        <Image width={125}   height={125} className='border rounded-full p-4 bg-green-100 text-green-300 transition ease-in-out delay-150 hover:bg-green-500 hover:scale-110 mb-5' src="https://cdn-icons-png.flaticon.com/128/5730/5730094.png" alt="" />
                         <span className='text-5xl font-bold mt-4'>3500+</span>
                         <p className='text-gray-500 text-xl'>Happy Traveler</p>
                     </div>
                     <div className='text-center border py-10 px-16 space-y-5  rounded-md shadow-xl'>
-                        <Image width={100}   height={100} className='border rounded-full p-4 bg-green-100 text-green-300 hover:bg-green-500 hover:scale-110 mb-5' src="https://cdn-icons-png.flaticon.com/128/2224/2224886.png" alt="" />
+                        <Image width={125}   height={125} className='border rounded-full p-4 bg-green-100 text-green-300 hover:bg-green-500 hover:scale-110 mb-5' src="https://cdn-icons-png.flaticon.com/128/2224/2224886.png" alt="" />
                         <span className='text-5xl font-bold mt-4'>1650+</span>
                         <p className='text-gray-500 text-xl'>Total Success</p>
                     </div>
                     <div className='text-center border py-10 px-16 space-y-5 rounded-md shadow-xl'>
-                        <Image width={100}  height={100} className='border rounded-full p-4 bg-green-100 text-green-300 hover:bg-green-500 hover:scale-110 mb-5' src="https://cdn-icons-png.flaticon.com/128/2190/2190548.png" alt="" />
+                        <Image width={125}  height={125} className='border rounded-full p-4 bg-green-100 text-green-300 hover:bg-green-500 hover:scale-110 mb-5' src="https://cdn-icons-png.flaticon.com/128/2190/2190548.png" alt="" />
                         <span className='text-5xl font-bold mt-4'>99.5%</span>
                         <p className='text-gray-500 text-xl'>Positive Review</p>
                     </div>
                     <div className='text-center border py-10 px-16 space-y-5 rounded-md shadow-xl'>
-                        <Image width={100} height={100}  className='border rounded-full p-4 bg-green-100 text-green-300 hover:bg-green-500 hover:scale-110 mb-5' src="https://cdn-icons-png.flaticon.com/128/3395/3395949.png" alt="" />
+                        <Image width={125} height={125}  className='border rounded-full p-4 bg-green-100 text-green-300 hover:bg-green-500 hover:scale-110 mb-5' src="https://cdn-icons-png.flaticon.com/128/3395/3395949.png" alt="" />
                         <span className='text-5xl font-bold mt-4'>62k+ </span>
                         <p className='text-gray-500 text-xl'>Award Wining </p>
                     </div>
