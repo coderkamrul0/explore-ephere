@@ -1,10 +1,11 @@
+import Image from 'next/image';
 import React from 'react';
 
 const CompanyIntro = () => {
     return (
         <div className='max-w-7xl mx-auto lg:flex gap-10 my-10'>
             <div className='w-full lg:w-1/2 relative'>
-                <img className='w-full h-[600px] rounded' src="https://cdn.pixabay.com/photo/2019/08/12/10/03/backpacking-4400872_640.jpg" alt="" />
+                <Image width={1280} height={600} className='w-full h-[600px] rounded' src="https://cdn.pixabay.com/photo/2019/08/12/10/03/backpacking-4400872_640.jpg" alt="" />
                 <div className='bg-green-500 h-32 w-1/2 absolute bottom-0 text-center'>
                     <p className=' font-bold text-white text-lg p-6'>Gowilds is providing the best solution by our experts</p>
                 </div>
@@ -25,7 +26,7 @@ const CompanyIntro = () => {
                 </div>
                 <div className='flex  gap-10 items-center pt-10'>
                     <div className='border-4 border-green-700 rounded-full'>
-                        <img className='w-24 rounded-full border-8' src="https://images.unsplash.com/photo-1485206412256-701ccc5b93ca?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fHJhbmRvbSUyMHBlb3BsZXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="" />
+                        <Image width={96} height={96} className='w-24 rounded-full border-8' src="https://images.unsplash.com/photo-1485206412256-701ccc5b93ca?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fHJhbmRvbSUyMHBlb3BsZXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="" />
                     </div>
                     <div>
                         <p className='font-bold text-xl'>Jesica Brown</p>
