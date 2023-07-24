@@ -11,7 +11,8 @@ const FeaturedTour = ({ tour = {} }) => {
     const { id, place_name, destination_img, price, location } = tour
 
     return (
-        <Link href={'/Booking'}>
+        <Link href={'/booking'}>
+            
             <div className=' bg-cover bg-center h-[350px] w-[400px] rounded-lg' style={{ backgroundImage: `url('${destination_img}')` }}>
 
                 <div className='backdrop-brightness-50 px-5 py-5 rounded-lg h-[350px] w-[400px]'>

@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import {
   FaFacebook,
@@ -45,7 +46,9 @@ const page = () => {
           </h2>
           <div className="grid gap-2 md:grid-cols-3 mt-8">
             <div className="bg-gray-200 h-[19rem] rounded-xl  mx-auto w-80 text-center">
-              <img
+              <Image
+              height={128}
+              width={128}
                 className="h-[8rem] my-5 mx-auto"
                 src=" https://i.ibb.co/mFcXgHr/lcoation.png"
                 alt=""
@@ -55,7 +58,9 @@ const page = () => {
               <p>Bangladesh</p>
             </div>
             <div className="bg-gray-200 h-[19rem] rounded-xl  mx-auto w-80 text-center">
-              <img
+              <Image
+              height={128}
+              width={128}
                 className="h-[8rem] my-5 mx-auto"
                 src=" https://i.ibb.co/D9C0S9j/email.png"
                 alt=""
@@ -65,7 +70,9 @@ const page = () => {
               <p>phero2@gmail.com</p>
             </div>
             <div className="bg-gray-200 h-[19rem] rounded-xl  mx-auto w-80 text-center">
-              <img
+              <Image
+              height={128}
+              width={128}
                 className="h-[8rem] my-5 mx-auto"
                 src="https://i.ibb.co/xXK69PT/contact.png"
                 alt=""

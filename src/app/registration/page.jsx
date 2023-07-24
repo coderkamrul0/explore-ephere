@@ -1,13 +1,16 @@
+import Image from "next/image";
 import Link from "next/link";
 
 const Registration = () => {
-  console.log(2);
+  
   return (
-    <div className="py-16 pt-[8rem]">
+    <div className="py-16 ">
       <div className="max-w-6xl mx-auto bg-gray-100">
         <div className="md:flex  items-center">
           <div className="relative">
-            <img
+            <Image
+            height={560}
+            width={560}
               className="h-[35rem]"
               src="https://img.freepik.com/free-vector/completed-steps-concept-illustration_114360-5441.jpg"
               alt=""
