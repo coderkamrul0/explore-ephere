@@ -177,7 +177,8 @@ const Banner = () => {
           </div>
           <input
             className=" outline-none rounded-md px-3 bg-green-600 text-white font-bold"
-            type="search"
+            type="button"
+            value="submit"
             name="search"
             placeholder="Search"
             id=""
