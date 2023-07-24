@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 
 export const metadata = {
@@ -7,11 +8,13 @@ export const metadata = {
 
 const page = () => {
   return (
-    <div className="py-16 pt-[8rem]">
+    <div className="py-16">
     <div className="max-w-6xl mx-auto bg-gray-100">
       <div className="md:flex  items-center">
         <div className="relative">
-          <img
+          <Image
+          height={560}
+          width={560}
             className="h-[35rem]"
             src="https://i.ibb.co/Fsq53Xd/13.jpg"
             alt=""
