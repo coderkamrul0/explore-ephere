@@ -7,7 +7,7 @@ import { AiOutlineHeart, AiFillStar } from "react-icons/ai";
 import { BsCameraVideo, BsCamera } from "react-icons/bs";
 import { FaCircleDollarToSlot , FaLocationArrow } from "react-icons/fa6";
 const FeaturedTour = ({ tour = {} }) => {
-    console.log(tour);
+    //console.log(tour);
     const { id, place_name, destination_img, price, location } = tour
 
     return (
