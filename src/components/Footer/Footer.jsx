@@ -15,7 +15,7 @@ const Footer = () => {
                         <p>Explore ephere</p>
                     </div>
                     <p className='mt-4'>To take trivial example which us
-                        <br />  ever undertakes laborious physica exercise except obsome.</p>
+                        <br />  ever undertakes laborious <br /> physica exercise except obsome.</p>
 
                     <div className='flex gap-3 mt-10'>
 
@@ -45,13 +45,20 @@ const Footer = () => {
                 </div>
                 <div>
                     <span className="footer-title font-semibold">Newsletter</span>
-                    <p className='mt-3 mb-3'>Subscribe our newsletter to get our latest <br /> update & news.</p>
-                    <div className="join mt-3">
-                        <input className="input input-bordered join-item" placeholder="Email address" />
+                    <p className='mt-3 mb-3'>Subscribe our newsletter to get <br /> our latest  update & news.</p>
+
+                    <div className="join mt-3 hidden lg:block">
+                        <input className=" input input-bordered join-item" placeholder="Email address" />
                         <button className="btn join-item rounded-r-full bg-[#63ab45] ">
-                            <BsFillSendFill className='h-5 w-5 text-white' />
+                            <BsFillSendFill className=' h-5 w-5 text-white' />
                         </button>
                     </div>
+
+                    <div className="join mt-3 mr-10 block lg:hidden">
+                        <input className=" input input-bordered join-item" placeholder="Email address" />
+                       
+                    </div>
+
                     <p className='mt-2 flex items-center gap-3'> <BsCheck2Circle className='h-4 w-4' /> I agree to all terms and policies</p>
                 </div>
                 <div>
