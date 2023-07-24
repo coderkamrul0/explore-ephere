@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Link from 'next/link';
 import React from 'react';
 import { AiOutlineFieldTime } from 'react-icons/ai';
 import { FaUserFriends } from 'react-icons/fa';
@@ -32,7 +33,9 @@ const SingleFeaturedTour = ({ item }) => {
                         <p className='inline-flex justify-center items-center gap-2'><AiOutlineFieldTime /> {days} Days</p>
                         <p className='inline-flex justify-center items-center gap-2'><FaUserFriends /> {guests}</p>
                     </div>
+                    <Link href={'/Booking'}>
                     <p>Explore More...</p>
+                    </Link>
                 </div>
             </div>
         </div>
