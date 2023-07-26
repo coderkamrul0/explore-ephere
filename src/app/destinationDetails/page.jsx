@@ -1,7 +1,7 @@
 import React from 'react';
-import Details from './Details/Details';
-import PopularTour from './PopularTour/PopularTour';
-import Adventure from './Adventure/Adventure';
+import Details from '@/components/DestionationDetetailsCompo/Details/Details';
+import PopularTour from '@/components/DestionationDetetailsCompo/PopularTour/PopularTour';
+import Adventure from '@/components/DestionationDetetailsCompo/Adventure/Adventure';
 
 const page = () => {
     return (

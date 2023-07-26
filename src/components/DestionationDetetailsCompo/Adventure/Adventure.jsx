@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-import img from "../images/plane.png";
+import img from "../../../../public/DestinationDetailsImages/plane.png";
 import Image from "next/image";
 
 const Adventure = () => {
