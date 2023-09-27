@@ -119,14 +119,10 @@ const Banner = () => {
                 <p className="text-gray-500">Destinations</p>
                 <p className="font-bold">Locations</p>
               </div>
-              <select className="w-[50px]" name=">" id="">
-               
+              <select name=">" id="">
                 <option value=""> </option>
-                <option value="">Switzerland</option>
-                <option value="">United Kingdom</option>
-                <option value="">France</option>
-                <option value="">Germany</option>
-                <option value="">Japan</option>
+                <option value="">USA</option>
+                <option value="">UK</option>
               </select>
             </div>
           </div>
@@ -143,13 +139,10 @@ const Banner = () => {
                 <p className="text-gray-500">Activity</p>
                 <p className="font-bold">Bookings</p>
               </div>
-              <select className="w-[50px]" name=">" id="">
+              <select name=">" id="">
                 <option value=""> </option>
-                <option value="">Tent Camping</option>
-                <option value="">Adventure travel</option>
-                <option value="">Mountain biking</option>
-                <option value="">Fishing & swimming</option>
-                <option value="">Mountain hiking</option>
+                <option value="">USA</option>
+                <option value="">UK</option>
               </select>
             </div>
           </div>
@@ -183,24 +176,9 @@ const Banner = () => {
               </div>
             </div>
           </div>
-        <Link href={'/searchPage'} className=" outline-none rounded-md px-3 bg-green-600 text-white font-bold flex items-center justify-center">
-        <input
-            className=" outline-none rounded-md px-3 bg-green-600 text-white font-bold"
-            type="button"
-            name="search"
-            // placeholder="Search"
-            id=""
-            value='submit'
-          />
-        </Link>
-         {/*  <input
-            className=" outline-none rounded-md px-3 bg-green-600 text-white font-bold"
-            type="search"
-            name="search"
-            placeholder="Search"
-            id=""
-          /> */}
-          
+          <Link className="" href={'/bookings'}>
+            <button className="outline-none rounded-md px-3 bg-green-600 text-white font-bold h-16 w-36">Search</button>
+          </Link>
         </div>
       </>
     </div>
